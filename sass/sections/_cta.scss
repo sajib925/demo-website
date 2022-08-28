@@ -1,0 +1,18 @@
+#cta{
+    background: $blue-gradient-color;
+    .row{
+        justify-content: space-between;
+        padding: 64px 0;
+        
+        .left{
+            max-width: 576px;
+        }
+        .small-para{
+            padding: 24px 0 48px 0;
+        }
+        .btn{
+            
+        }
+        
+    }
+}

@@ -1,0 +1,13 @@
+#call-to-action{
+    .row{
+        flex-direction: column;
+        row-gap: 24px;
+
+        .xl-header{
+            max-width: 846px;
+        }
+        .btn{
+            margin-top: 8px;
+        }
+    }
+}

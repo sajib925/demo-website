@@ -1,0 +1,24 @@
+#product-hero{
+    padding: 96px 0 32px 0;
+    .row{
+        justify-content: space-between;
+        
+    }
+    .left{
+        max-width: 576px;
+        .xl-header{
+            max-width: 576px;
+        }
+        .big-para{
+            padding: 24px 0;
+        }
+        .button{
+            padding-top: 20px;
+            display: flex;
+            column-gap: 16px;
+        }
+    }
+    .right{
+        max-width: 612px;
+    }
+}

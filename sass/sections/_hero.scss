@@ -1,0 +1,22 @@
+#hero{
+    .row{
+        flex-direction: column;
+        row-gap: 32px;
+        padding-top: 96px;
+
+        .xl-header{
+            max-width: 768px;
+        }
+
+        form{
+            padding: 16px 0 32px 0;
+            input{
+                background: #FFFFFF;
+                border-radius: 20px;
+            }
+        }
+        .dashboard-img{
+            padding-bottom: 130px;
+        }
+    }
+}

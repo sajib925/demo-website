@@ -1,0 +1,27 @@
+#about-testimonial-section{
+    padding-bottom: 128px;
+    .row{
+        align-items: flex-start;
+        justify-content: flex-start;
+        column-gap: 32px;
+        .testimonial-text{
+            max-width: 408px;
+        }
+        .testimonial-cards{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+        }
+        .card{
+                img{
+                    margin-bottom: -16px;
+                }
+
+                .text-box{
+                    background: #E0E4FC;
+                    border-radius: 0px 0px 12px 12px;
+                    padding: 40px 0 24px 32px;
+                }
+            }
+    }
+}

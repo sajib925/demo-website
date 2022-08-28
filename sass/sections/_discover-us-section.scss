@@ -1,0 +1,17 @@
+#discover-section{
+    padding: 96px 0;
+    .row{
+        justify-content: space-between;
+        .left{
+            max-width: 557px;
+            .lg-header{
+                padding: 24px 0 32px 0;
+            }
+        }
+        .card{
+            display: flex;
+            column-gap: 32px;
+            padding: 16px 0;
+        }
+    }
+}

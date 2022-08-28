@@ -1,0 +1,82 @@
+
+#pricing-card-section{
+    padding: 96px 0;
+    .row{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .call-to-action{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 24px;
+        .xl-header{
+            max-width: 529px;
+        }
+        .big-para{
+            max-width: 332px;
+        }
+    }
+    .button{
+        display: flex;
+        align-items: center;
+        column-gap: 48px;
+        background: #E0E4FC;
+        border-radius: 20px;
+        padding: 16px 24px;
+        margin-bottom: 48px;
+
+        .btn{
+            margin-left: -16px;
+        }
+        .link{
+            padding-right: 32px;
+            font-family: $my-font;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 150%;
+            color: $primary-color;
+        }
+    }
+    .pricing-cards{
+        display: flex;
+        align-items: center;
+        column-gap: 24px;
+        .card{
+            padding: 48px 0;
+            // background: #FFFFFF;
+            background-color: rgb(248, 242, 242);
+            border-radius: 24px;
+            .top{
+                display: flex;
+                align-items: center;
+                column-gap: 24px;
+                padding: 0 159px 32px 48px;
+                border-bottom: 1px solid #D8D8D8;
+            }
+            .middle{
+                padding: 32px 0 20px 48px;
+                .box{
+                display: flex;
+                column-gap: 16px;
+                align-items: center;
+                padding: 12px 0;
+                }
+            }
+            .bottom{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+                .v-small-para{
+                    max-width: 297px;
+                    text-align: center;
+                    padding-bottom: 48px;
+                }
+                .sub-title{
+                    padding-bottom: 24px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+#remote-teams-section{
+    padding-bottom: 125px;
+    .row{
+        justify-content: space-between;
+    }
+    .left{
+        max-width:467px;
+    }
+    .right{
+        max-width: 576px;
+        padding-right: 40px;
+        .lg-header{
+            padding: 24px 0 32px 0;
+        }
+    }
+}

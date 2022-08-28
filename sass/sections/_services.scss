@@ -1,0 +1,22 @@
+#service-section{
+    padding: 128px 0 96px 0;
+    .row{
+        flex-direction: column;
+        .lg-header{
+            max-width: 768px;
+            text-align: center;
+        }
+        .features{
+            display: flex;
+            flex-wrap: wrap;
+            // column-gap: 24px;
+            .feature{
+                width: 29%;
+                padding: 64px 24px;
+                .sm-header{
+                    padding: 16px 0;
+                }
+            }
+        }
+    }
+}

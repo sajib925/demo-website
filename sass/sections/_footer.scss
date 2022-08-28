@@ -1,0 +1,31 @@
+#footer{
+    background: $primary-color;
+    // margin: 128px 0;
+    .row{
+        padding: 64px 0;
+        justify-content: space-between;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+        .v-sm-header{
+            color: $white-color;
+        }
+        a{
+            color: $white-color;
+            font-family: $my-font;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            opacity: 0.6;
+        }
+        .logo{
+            margin-bottom: 24px;
+        }
+        form{
+            margin-top: 8px;
+            
+        }
+    }
+}

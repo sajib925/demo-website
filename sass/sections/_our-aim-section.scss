@@ -1,0 +1,21 @@
+#our-aim-section{
+    margin: 128px 0 0 0;
+    background: #F0F2FE;
+    .row{
+        column-gap: 65px;
+        .our-goals{
+            max-width: 607px;
+            padding: 96px 0;
+            display: flex;
+            flex-direction: column;
+            row-gap: 24px;
+        }
+        .our-vision{
+            max-width: 607px;
+            padding: 96px 0;
+            display: flex;
+            flex-direction: column;
+            row-gap: 24px;
+        }
+    }
+}

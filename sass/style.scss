@@ -1,0 +1,32 @@
+/* import global */
+@import "./global/varriable";
+@import "./global/mixin";
+@import "./global/reset-code";
+@import "./global/fonts";
+
+
+/* import component */
+
+@import "./component/layout";
+@import "./component/typography";
+@import "./component/btn";
+
+
+/* import pages */
+
+@import "./pages/product";
+
+/* import sections */
+
+@import "./sections/header";
+@import "./sections/header";
+@import "./sections/features";
+@import "./sections/cta";
+@import "./sections/cta-icon-section";
+@import "./sections/testimonial";
+@import "./sections/discover-us-section";
+@import "./sections/about-section";
+@import "./sections/call-to-action";
+@import "./sections/footer";
+
+

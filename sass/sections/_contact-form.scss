@@ -1,0 +1,62 @@
+#my-form-section{
+    .wrapper{
+        padding: 96px 0 128px 0;
+    }
+    .row{
+        flex-direction: column;
+        row-gap: 64px;
+    }
+    .contact-form{
+        background: #F0F2FE;
+        border-radius: 24px;
+        display: flex;
+        align-items: center;
+        column-gap: 148px;
+        padding: 64px;
+        .md-header{
+            margin-bottom: 16px;
+        }
+        .my-form{
+            max-width: 622px;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+            margin-top: 48px;
+            .message{
+                padding-bottom: 84px;
+            }
+            .company-name{
+                padding-left: 30px;
+            }
+        }
+
+
+        .name{
+            display: flex;
+            column-gap: 16px;
+            
+        }
+       input{
+            width: 100%;
+            padding: 20px 0 20px 24px;
+            background: #FFFFFF;
+            border-radius: 8px;
+            border: none;
+        } 
+        .contact{
+            padding-right: 82px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 36px;
+            .box{
+                display: flex;
+                align-items: center;
+                column-gap: 24px;
+            }
+        }
+    }
+
+}

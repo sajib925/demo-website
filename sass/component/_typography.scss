@@ -1,0 +1,79 @@
+.xl-header{
+    font-family: $my-font;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 110%;
+    color: $primary-color;
+}
+.lg-header{
+    font-family: $my-font;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: $primary-color;
+}
+.md-header{
+    font-family: $my-font;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    color: $primary-color;
+}
+.sm-header{
+    font-family: $my-font;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: $primary-color;
+}
+.v-sm-header{
+    font-family: $my-font;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: $primary-color;
+}
+.v-v-sm-header{
+    font-family: $my-font;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: $primary-color;
+
+}
+.big-para{
+    font-family:$my-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: $primary-color;
+}
+.small-para{
+    font-family: $my-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: $primary-color;
+}
+.v-small-para{
+    font-family: $my-font;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #1D2130;
+    opacity: 0.87;
+}
+.sub-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #1D2130;
+}
+a{
+    text-decoration: none;
+}

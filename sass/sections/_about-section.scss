@@ -1,0 +1,32 @@
+#about-section{
+    padding: 128px 0;
+    .row{
+        justify-content: space-between;
+        .left{
+            max-width: 576px;
+            // .sm-header{
+            //     color: $label-gradient-color;
+            // }
+
+            .lg-header{
+                padding: 24px 0;
+            }
+            .small-para{
+                padding-top: 8px;
+            }
+            
+        }
+        .right{
+            
+            .list-item{
+                display: flex;
+                column-gap: 24px;
+                row-gap: 32px;
+                padding: 16px;
+            }
+            .big-para{
+                max-width: 504px;
+            }
+        }
+    }
+}

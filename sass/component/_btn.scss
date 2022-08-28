@@ -1,0 +1,28 @@
+.btn{
+    border-radius: 12px;
+    padding: 16px 40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+.dark-btn{
+    background: $primary-color;
+    font-family: $my-font;
+    text-align: center;
+    color: $white-color;
+    transition: .5s;
+}
+.dark-btn:hover{
+    background: #313852;
+}
+.light-btn{
+    border: 2px solid $light-violet-color;
+    font-family: $my-font;
+    font-style: normal;
+    color: $primary-color;
+    transition: .5s;
+}
+.light-btn:hover{
+    background: $primary-color;
+    color: $white-color;
+}

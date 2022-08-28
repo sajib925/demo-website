@@ -1,0 +1,15 @@
+#about-us-section{
+    .row{
+        max-width: 768px;
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        .lg-header{
+            padding: 24px 0;
+        }
+        .big-para{
+            text-align: center;
+        }
+        
+    }
+}
